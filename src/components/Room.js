@@ -57,7 +57,7 @@ const Room = ({room}) => {
           <p className='max-w-[300px] mx-auto mb-3 lg:mb-6'>{description.slice(0,56)}</p>
         </div>
         {/* btn  */}
-        <Link to={`/room/${id}`} className='btn btn-secondary btn-sm max-w-[240px] mx-auto text-center'>Book now from ₦{price} </Link>
+        <Link to={`/room/${id}`} className='btn btn-secondary rounded-md btn-sm max-w-[240px] mx-auto text-center'>Book now from ₦{price} </Link>
 
     </div>
   
